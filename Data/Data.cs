@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Summaries.Data;
 
+//This is the data class which is being used instead of the database
 public static class Data
 {
     public static List<Book> Books => allBooks;

@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "prestart": "node aspnetcore-https",
-    "start": "run-script-os",
+    "start": "echo hello && ng serve",
     "start:windows": "ng serve --port 44467 --ssl --ssl-cert %APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem --ssl-key %APPDATA%\\ASP.NET\\https\\%npm_package_name%.key",
     "start:default": "ng serve --port 44467 --ssl --ssl-cert $HOME/.aspnet/https/${npm_package_name}.pem --ssl-key $HOME/.aspnet/https/${npm_package_name}.key",
     "build": "ng build",
@@ -33,8 +33,8 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.2",
-    "@angular/cli": "~12.2.2",
+    "@angular-devkit/build-angular": "^13.1.2",
+    "@angular/cli": "^13.1.2",
     "@angular/compiler-cli": "~12.2.2",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.8",
@@ -46,6 +46,5 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  },
-  "optionalDependencies": {}
+  }
 }

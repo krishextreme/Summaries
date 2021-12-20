@@ -1,5 +1,7 @@
 {
   "devDependencies": {
-    "@angular-devkit/build-angular": "^13.1.2"
+    "@angular-devkit/build-angular": "^13.1.2",
+    "@angular/cli": "^13.1.2",
+    "run-script-os": "^1.1.6"
   }
 }
